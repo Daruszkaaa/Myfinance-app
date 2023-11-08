@@ -1,9 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
 import { useNavigate } from 'react-router-dom';
 import { Password } from 'primereact/password';
-import photo from '../assets/AdobeStock_509395296.jpeg'
+// @ts-ignore
+import photo from '../assets/AdobeStock_509395296.jpeg';
 
 export default function Signin() {
 
@@ -26,7 +28,7 @@ export default function Signin() {
                 </span>
                         <br/>
                         <span className="p-input-icon-left">
-                  <Password placeholder="Password" toggleMask feedback={false}/>
+                  <Password placeholder="Hasło" toggleMask feedback={false}/>
                     </span>
                         <br/>
                         <br />
