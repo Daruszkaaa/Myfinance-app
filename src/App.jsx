@@ -2,6 +2,7 @@ import React from 'react';
 import {createRoot} from "react-dom/client";
 import {Route, Routes, BrowserRouter as Router} from "react-router-dom";
 
+
 //VIEWS
 import Finance from "./views/Finance.jsx";
 import SignIn from './views/SignIn.jsx';

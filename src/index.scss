@@ -1,15 +1,15 @@
 @import "styles/Reset.scss";
 @import "styles/SignIn.scss";
 @import "styles/SignUp.scss";
-@import "styles/NavBar.scss";
 @import "styles/Finance.scss";
+@import "styles/NavBar.scss";
 
 *{
   box-sizing: border-box;
 }
 body {
   margin: 0;
-  padding: 0;
+  padding: 1rem;
 ;
 
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
